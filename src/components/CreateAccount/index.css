@@ -1,0 +1,74 @@
+.create-account-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.create-account{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+    background: #FFFFFF1A;
+    width: 25%;
+    /* height: 50vh; */
+    padding: 25px;
+    border-radius: 10px;
+}
+.heading{
+    text-align: center;
+}
+.name{
+    background-color: black;
+    height: 45px;
+    width: 360px;
+    border: 3px #404040 solid;
+    border-radius: 20px;
+    margin: 20px;
+    padding-left: 25px;
+    color: #ffffff;
+    font-weight: 500;
+    font-size: 16px;
+}
+.email{
+    background-color: black;
+    height: 45px;
+    width: 360px;
+    border: 3px #404040 solid;
+    border-radius: 20px;
+    margin: 20px;
+    padding-left: 25px;
+    color: #ffffff;
+    font-weight: 500;
+    font-size: 16px;
+}
+
+.logo-create-acccount{
+    height: 30px;
+    width: 30px;
+    margin-right: 5px;
+    margin-top: 2px;
+    border-radius: 50px;
+    align-self: center;
+    background-color: black;
+    text-align: center;
+}
+
+
+.buttons{
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+}
+.custom-button{
+    background-color: #404040;
+    align-self: center;
+    color: #ffffff;
+    border-radius: 18px;
+    height: 40px;
+    width: 300px;
+    padding: 5px;
+    font-size: 16px;
+}

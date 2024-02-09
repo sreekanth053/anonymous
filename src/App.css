@@ -1,5 +1,7 @@
 .App {
-  text-align: center;
+  background-color: black;
+  color: #ffffff;
+  max-height: 1000vh;
 }
 
 .App-logo {
@@ -35,4 +37,23 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+.header{
+  display: flex;
+
+}
+
+.logo-name{
+  display: flex;
+}
+
+.title-logo{
+  height: 40px;
+  width: 40px;
+  margin: 12px;
+}
+
+.logo-name{
+  font-size: 20px;
 }

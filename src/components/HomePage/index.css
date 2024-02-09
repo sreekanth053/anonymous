@@ -1,0 +1,71 @@
+.homepage{
+    color: #ffffff;
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    align-items: center;
+    margin: 50px;
+}
+
+.users{
+    display: flex;
+    /* border: 1px #00000040 solid; */
+    box-shadow: 0px 0.5px 0.5px 0px #404040;
+    border-radius: 20px;
+    justify-content: center;
+    height: 18px;
+    width: 250px;
+    padding: 5px;
+    align-self: center;
+}
+
+.logo-homepage{
+    height: 20px;
+    width: 20px;
+    margin-right: 5px;
+    margin-top: 2px;
+    border-radius: 50px;
+    align-self: center;
+    background-color: black;
+}
+.for-users{
+    padding: 1px;
+    align-self: center;
+    margin-left: 5px;
+}
+.homepage-heading{
+    text-align: center;
+    padding-top: 10px;
+    width: 600px;
+    align-self: center;
+    font-size: 38px;
+}
+.homepage-sub-heading{
+    text-align: center;
+    padding: 5px;
+    width: 500px;
+    align-self: center;
+    font-size: 18px;
+}
+
+.buttons{
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+}
+.custom-button{
+    background-color: #404040;
+    align-self: center;
+    color: #ffffff;
+    border-radius: 20px;
+    height: 40px;
+    width: 250px;
+    padding: 5px;
+    font-size: 16px;
+}
+
+.login-page{
+    align-self: center;
+    font-size: 14px;
+
+}
